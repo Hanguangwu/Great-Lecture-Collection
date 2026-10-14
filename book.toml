@@ -1,0 +1,13 @@
+[book]
+authors = ["Hanguangwu"]
+language = "zh-cn"
+src = "src"
+title = "著名演讲合辑"
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+[preprocessor.katex]
+after = ["links"]
+[output.html.fold]
+enable = true    #是否启用截面折叠
+level = 2         # 开始折叠的深度
